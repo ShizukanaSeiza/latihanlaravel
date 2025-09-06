@@ -13,3 +13,7 @@ Route::get('/hai', function () {
 Route::get('/nama', function () {
     return "Ore no nawa seiza tomoshimase";
 });
+
+Route::get('/kelas', function () {
+    return "Saya dari kelas ASE-10";
+});
