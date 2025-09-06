@@ -17,3 +17,7 @@ Route::get('/nama', function () {
 Route::get('/kelas', function () {
     return "Saya dari kelas ASE-10";
 });
+
+Route::get('/ras', function () {
+    return "Saya dari mongol";
+});
