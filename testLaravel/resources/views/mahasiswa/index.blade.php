@@ -16,7 +16,7 @@
     <ul>
         @foreach($data as $mhs)
             <li>
-                {{$mhs->nama}} - {{ $mhs-> $nim }}<
+                {{$mhs->nama}} - {{$mhs->nim}}
             </li>
         @endforeach    
     </ul>
